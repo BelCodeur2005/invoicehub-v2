@@ -11,7 +11,7 @@ The repository currently contains the **database schema** and the **requirements
 ## Repository Contents
 
 - `invoicehub_schema_v2.sql` — Complete PostgreSQL 15+ database schema (1,328 lines, commented in French)
-- `CDC_Plateforme_Facturation_BTS.docx` — Business requirements document (French)
+- `docs/CDC_Plateforme_Facturation_BTS.docx` — Business requirements document (French)
 
 ## Database
 

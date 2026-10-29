@@ -45,3 +45,6 @@ tsconfig.tsbuildinfo
 
 # Redis dump
 dump.rdb
+
+# Configuration locale de Claude Code
+.claude/settings.local.json

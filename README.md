@@ -363,5 +363,23 @@ psql -U postgres -d invoicehub -f invoicehub_schema_v2.sql
 
 ---
 
+## Évolutions prévues
+
+- **BTS Assistant (v2.1)** — assistant conversationnel intégré, basé sur un modèle de langage local (Mistral 7B via Ollama) : questions en langage naturel sur les factures, les clients et les impayés, sans envoyer de données à un service externe. Conception détaillée dans [`docs/OLLAMA_INTEGRATION.md`](docs/OLLAMA_INTEGRATION.md).
+
+---
+
+## Documentation
+
+| Document | Contenu |
+|---|---|
+| [`docs/InvoiceHub_v2_Documentation_Technique.md`](docs/InvoiceHub_v2_Documentation_Technique.md) | Documentation technique complète |
+| [`docs/FRONTEND_PLAN.md`](docs/FRONTEND_PLAN.md) | Plan de l'interface |
+| [`docs/DEPLOY_LOCAL_WINDOWS.md`](docs/DEPLOY_LOCAL_WINDOWS.md) | Installation sous Windows |
+| [`docs/OLLAMA_INTEGRATION.md`](docs/OLLAMA_INTEGRATION.md), [`docs/OLLAMA_IA.md`](docs/OLLAMA_IA.md) | Assistant IA (prévu) |
+| `docs/CDC_Plateforme_Facturation_BTS.docx` | Cahier des charges |
+
+---
+
 *InvoiceHub v2.0 — Bridge Technologies Solutions — Douala, Cameroun*
 *Conforme SYSCOHADA · Devise XAF (Franc CFA) · TVA 19,25 %*
